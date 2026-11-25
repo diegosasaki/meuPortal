@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+ }
+
+.fundo {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.fundo-esquerda {
+    left: 0;
+    background-image: url('imgs/criancas.png');
+}
+
+.fundo-direita {
+    right: 0;
+    background-image: url('imgs/menina.png');
+}
+
+.login {
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.88);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login h1 {
+    font-size: 17.5px;
+    font-weight: normal;
+    text-transform: uppercase;
+ }
+
+.logo {
+    display: block;
+    width: 320px;
+    max-width: 100%;
+    margin: 0 auto 36px;
+}
+
+.login h2{
+     font-size: 17.5px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+
+input[type="text"], input[type="password"] {
+    
+    display: block;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 12px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.88);
+    border: 1px solid #c8c8c8;
+    
+}
+
+
+input[type="text"]:focus, input[type="password"]:focus {
+    
+    outline: none;
+    border: 3px solid #4aa3e8;
+    
+}
+
+button {
+    padding: 12px 22px;
+    margin: 0 0 20px 0;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+    
+    background-color: #d73220;
+    border: none;
+    cursor: pointer;
+
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #636262;
+}
+
+.links {
+    line-height: 2px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.links a, a {
+    color: #d73220;
+}
+
+
+
+
